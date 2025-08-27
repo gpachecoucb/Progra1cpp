@@ -5,11 +5,12 @@ using namespace std;
 // Carnet: 9099972 L.P.
 // Carrera del estudiante: Ingeniería de Sistemas
 // Fecha creación: 27/08/2025
-// Número de ejercicio: 1
-
+// Número de ejercicio: 4
 int main() {
-    cout << "Hola, soy estudiante de programación" << endl;
-    cout << "Mi nombre es Gabriel Pacheco" << endl;
-    cout << "Estoy en el segundo semestre de la carrera de Ingeniería de Sistemas" << endl;
+    int radio_esfera = 0;
+    cout << "Ingrese el radio de la esfera" << endl;
+    cin >> radio_esfera;
+    cout << "El volumen de la esfera es: " << (4.0/3.0) * 3.1416 * (radio_esfera * radio_esfera * radio_esfera) << endl;
     return 0;
+    
 }
