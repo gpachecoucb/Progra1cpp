@@ -15,7 +15,7 @@ int main()
         
         cout << "Ingrese el numero del que quiere su tabla " << endl;
         cin >> n;
-        cout << "TABLA DEL " << continuar;
+        cout << "TABLA DEL " << n << endl;
         for(int i = 1; i <= 10; i++){
             int res = n*i;
             cout << n << " x " << i << " = " << res << endl;
@@ -23,7 +23,7 @@ int main()
         cout << endl;
         cout << "Desea generar otra tabla? (s/n)" <<endl;
         cin >> continuar;
-    }while (continuar != 's');
+    }while (continuar != 'n');
 
     return 0;
 }
