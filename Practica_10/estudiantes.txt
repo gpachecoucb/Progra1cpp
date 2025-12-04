@@ -1,0 +1,9 @@
+Nombre: brayan
+Edad: 20
+Promedio: 9
+Nombre: carolina
+Edad: 19
+Promedio: 6
+Nombre: Carla
+Edad: 21
+Promedio: 7
